@@ -1,0 +1,202 @@
+/* Global styles
+------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Assistant', sans-serif;
+  margin:0;
+}
+a {
+  color: #EF233C;
+}
+a:hover {
+  text-decoration: none;
+}
+
+
+/* Header & Footer
+------------------------------------*/
+header,
+footer {
+  background: #4a0803;
+  color: white;
+}
+
+.profile-img{
+
+}
+header h1,
+header h2 {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight:normal;
+  margin: 0;
+}
+
+header{
+  padding-top:50px;
+}
+
+.qualif{
+  height:600px;
+  background:linear-gradient(rgba(222, 143, 110,0),rgba(222, 143, 110,0.2)),
+  url(../images/backq.jpg) no-repeat fixed;
+  background-size:cover;
+  color:white;
+}
+
+.research{
+  height:600px;
+  background:linear-gradient(rgba(222, 143, 110,0),rgba(222, 143, 110,0.2)),
+  url(../images/backr.jpg) no-repeat fixed;
+  background-size:cover;
+  color:white;
+}
+
+.workn{
+  height:600px;
+  background:linear-gradient(rgba(222, 143, 110,0),rgba(222, 143, 110,0.2)),
+  url(../images/backw.jpg) no-repeat fixed;
+  background-size:cover;
+  color:white;
+}
+
+.galln{
+  height:300px;
+  background:lightsalmon;
+
+}
+
+footer{
+  text-align: center;
+
+}
+
+.social-info a {
+  padding:10px;
+  display: inline-block;
+}
+
+.contactm{
+
+  line-height: 200%;
+}
+
+
+
+
+h1{
+  font-size: 45px;
+
+}
+
+h2,p {
+  margin: 0;
+}
+
+li{
+  line-height: 150%;
+}
+
+.content-wrap{
+  max-width:950px;
+  margin:0 auto;
+  padding:50px;
+  overflow: auto;
+}
+.col-n{
+  width:30%;
+  float: left;
+  min-height: 150px;
+}
+.col-w{
+  width:70%;
+  float: left;
+  padding-left: 20px;
+  padding-top:20px;
+  min-height: 175px;
+}
+
+/*-----Nav----------------------------*/
+nav{
+  text-align: center;
+  background: rgba(0,0,0, 0.6);
+  position:fixed;
+  top:0;
+  width: 100%;
+}
+
+nav a {
+  display: inline-block;
+  padding: 20px 20px;
+  text-decoration: none;
+  text-transform:uppercase;
+  font-weight: 600;
+}
+
+nav a:hover{
+  color: white;
+  background:black;
+  font-weight:800;
+}
+/* Work Experience
+------------------------------------*/
+.personality {
+  background:linear-gradient(rgba(222, 143, 110,0.2),rgba(222, 143, 110,0.8)),
+  url(../images/back.jpg) no-repeat fixed;
+  background-size:cover;
+  color:white;
+}
+
+/* Education
+------------------------------------*/
+.engagement {
+  background: #FFC0CB;
+}
+
+.education{
+  background: #FFC0CB;
+}
+
+.professional{
+  background: #FFC0CB;
+}
+.publications{
+  line-height:180%;
+}
+
+.ditems{
+  line-height:1.5em;
+}
+
+.ditems a{
+  display:block;
+  text-decoration:none;
+
+
+}
+
+.gallery-main{
+
+  background:rosybrown;
+}
+.gallery{
+  margin:10px 50px;
+}
+
+.gallery img{
+  width:180px;
+  padding:50px;
+  filter: grayscale(100);
+  transition:1s;
+}
+
+.gallery img:hover{
+  filter: grayscale(0);
+  transform: scale(1.1);
+
+}
